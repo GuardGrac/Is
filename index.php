@@ -71,13 +71,10 @@
             <button class="order_button">
                 Заказать
             </button>
-
-
+    
 	</header>
 
-    <!--фон <div class="circle">
 
-    </div> -->
 
 
 </body>

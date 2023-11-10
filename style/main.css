@@ -1,10 +1,10 @@
 body, html {
-	background-color: #ffffff;
+	background-color: #ffd0d0;
 	height: 100%;
 	overflow: overlay;
-	background: url(/images/back.png) no-repeat;
-	background-size: 100%, 100%;
-	background-attachment: fixed;
+	background-image: url(/images/back.png);
+	background-size: cover;
+	background-attachment: scroll;
 	margin: 0px;
 	overflow-x: hidden;
 	font-family: 'Nunito', sans-serif;
@@ -49,11 +49,11 @@ body, html {
     justify-content: space-around;
     flex-direction: row; 
     text-decoration: none;
-    background-color: #ffffff;
+    background-color: transparent;
     padding: 38px;
     height: 2vw;
     width: 100vw;
-    z-index: 1;
+    z-index: 2;
     position: fixed;
 }
 
@@ -259,16 +259,6 @@ body, html {
 	top: 0;
 	transform: rotate3d(0, 0, 1, 45deg);
 }
-
-
-.circle{
-	background: #456BD9;
-	border: 0.1875em solid #0F1C3F;
-	border-radius: 50%;
-	height: 15em;
-	width: 15em;
-	filter: blur(20px);
-  }
   
   .order_button{
     color:rgb(255, 255, 255);
