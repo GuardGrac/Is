@@ -96,7 +96,184 @@ body, html {
 	flex-direction: row;
 }
 
+.about{
+	margin-top: 20em;
+}
 
+.quote-wrapper {
+  height: 300px;
+  position: relative;
+  width: 300px;
+}
+
+.text ,.text2 ,.text3{
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 0, 55, 1) 0%,
+    rgba(255, 0, 55, 1) 70%,
+    rgba(255, 0, 55, 0) 70.3%
+  );
+  position: absolute;
+  z-index: 1;
+  margin: 0;
+  height: 160%;
+  width: 160%;
+}
+
+.text2{
+	top:18em;
+	left: 20em;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	z-index: 0;
+}
+
+.text3{
+	bottom:28em;
+	left: 22em;
+	height: 130%;
+	width: 130%;
+	position: relative;
+	z-index: 2;
+}
+
+.text p, .text2 p, .text3 p{
+	font-family: 'Nunito', sans-serif;
+	font-size: 21px;
+	font-style: bold;
+	height: 100%;
+	line-height: 1.25;
+	padding: 0;
+	text-align: center;
+	text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+  }
+
+  .text::before {
+	content: "";
+	float: left;
+	height: 100%;
+	width: 50%;
+	shape-outside: polygon(
+	  0 0,
+	  98% 0,
+	  50% 6%,
+	  23.4% 17.3%,
+	  6% 32.6%,
+	  0 50%,
+	  6% 65.6%,
+	  23.4% 82.7%,
+	  50% 94%,
+	  98% 100%,
+	  0 100%
+	);
+	shape-margin: 7%;
+  }
+
+  .text p::before {
+	content: "";
+	float: right;
+	height: 100%;
+	width: 50%;
+	shape-outside: polygon(
+	  2% 0%,
+	  100% 0%,
+	  100% 100%,
+	  2% 100%,
+	  50% 94%,
+	  76.6% 82.7%,
+	  94% 65.6%,
+	  100% 50%,
+	  94% 32.6%,
+	  76.6% 17.3%,
+	  50% 6%
+	  );
+	shape-margin: 7%;
+  }
+
+  .text2::before {
+	content: "";
+	float: left;
+	height: 100%;
+	width: 50%;
+	shape-outside: polygon(
+	  0 0,
+	  98% 0,
+	  50% 6%,
+	  23.4% 17.3%,
+	  6% 32.6%,
+	  0 50%,
+	  6% 65.6%,
+	  23.4% 82.7%,
+	  50% 94%,
+	  98% 100%,
+	  0 100%
+	);
+	shape-margin: 7%;
+  }
+
+  .text2 p::before {
+	content: "";
+	float: right;
+	height: 100%;
+	width: 50%;
+	shape-outside: polygon(
+	  2% 0%,
+	  100% 0%,
+	  100% 100%,
+	  2% 100%,
+	  50% 94%,
+	  76.6% 82.7%,
+	  94% 65.6%,
+	  100% 50%,
+	  94% 32.6%,
+	  76.6% 17.3%,
+	  50% 6%
+	  );
+	shape-margin: 7%;
+  }
+
+  .text3::before {
+	content: "";
+	float: left;
+	height: 100%;
+	width: 50%;
+	shape-outside: polygon(
+	  0 0,
+	  98% 0,
+	  50% 6%,
+	  23.4% 17.3%,
+	  6% 32.6%,
+	  0 50%,
+	  6% 65.6%,
+	  23.4% 82.7%,
+	  50% 94%,
+	  98% 100%,
+	  0 100%
+	);
+	shape-margin: 7%;
+  }
+
+  .text3 p::before {
+	content: "";
+	float: right;
+	height: 100%;
+	width: 50%;
+	shape-outside: polygon(
+	  2% 0%,
+	  100% 0%,
+	  100% 100%,
+	  2% 100%,
+	  50% 94%,
+	  76.6% 82.7%,
+	  94% 65.6%,
+	  100% 50%,
+	  94% 32.6%,
+	  76.6% 17.3%,
+	  50% 6%
+	  );
+	shape-margin: 7%;
+  }
   
 #menu {
 	background: #F8F9F9;

@@ -74,7 +74,37 @@
     
 	</header>
 
+    <section class="about">
 
+        <div class="quote-wrapper">
+
+            <blockquote class="text">
+
+                <p>Experience design is the design of anything,
+                    independent of medium, or across media,
+                    and human engagement as an explicit goal.</p>
+                    
+            </blockquote>
+
+            <blockquote class="text2">
+
+                <p>Experience design is the design of anything,
+                    independent of medium, or across media,
+                    and human engagement as an explicit goal.</p>
+                    
+            </blockquote>
+
+            <blockquote class="text3">
+
+                <p>Experience design is the design of anything,
+                    independent of medium, or across media,
+                    and human engagement as an explicit goal.</p>
+                    
+            </blockquote>
+
+         </div>
+
+    </section>
 
 
 </body>
