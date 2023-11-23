@@ -83,6 +83,7 @@ body, html {
 	margin: 0px;
 	font-family: 'Nunito', sans-serif;
 	font-size: 64px;
+	margin-bottom: 5em;
 }
 
 .header_subtitle{
@@ -97,7 +98,24 @@ body, html {
 }
 
 .about{
-	margin-top: 20em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: white;
+}
+
+.text_about{
+	font-weight: 400;
+	padding-left: 14em;
+	font-family: 'Nunito', sans-serif;
+	font-size: 36px;
+	display: block;
+	text-align: start;
+}
+
+.flex_box{
+margin-top: 15em;
+display: block;
 }
 
 .quote-wrapper {
@@ -114,28 +132,28 @@ body, html {
     rgba(255, 0, 55, 0) 70.3%
   );
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   margin: 0;
   height: 160%;
   width: 160%;
 }
 
 .text2{
-	top:18em;
+	top:3em;
 	left: 20em;
 	height: 100%;
 	width: 100%;
 	position: relative;
-	z-index: 0;
+	z-index: 1;
 }
 
 .text3{
-	bottom:28em;
-	left: 22em;
+	bottom:48em;
+	left: 20em;
 	height: 130%;
 	width: 130%;
 	position: relative;
-	z-index: 2;
+	z-index: 3;
 }
 
 .text p, .text2 p, .text3 p{

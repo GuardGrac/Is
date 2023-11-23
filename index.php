@@ -76,6 +76,8 @@
 
     <section class="about">
 
+    <div class="flex_box">
+
         <div class="quote-wrapper">
 
             <blockquote class="text">
@@ -86,23 +88,58 @@
                     
             </blockquote>
 
-            <blockquote class="text2">
+        </div>
+
+            <div class="quote-wrapper">
+
+                 <blockquote class="text2">
 
                 <p>Experience design is the design of anything,
                     independent of medium, or across media,
                     and human engagement as an explicit goal.</p>
                     
-            </blockquote>
+                </blockquote>
+            
+            </div>
 
-            <blockquote class="text3">
+            <div class="quote-wrapper">
+
+                <blockquote class="text3">
 
                 <p>Experience design is the design of anything,
                     independent of medium, or across media,
                     and human engagement as an explicit goal.</p>
                     
-            </blockquote>
+                 </blockquote>
+
+            </div>
+
+    </div>
+
+         <div class="text_about">
+
+            <H1> 
+                 Наша работа
+            </H1>
+
+            <p>
+            Experience design is the design of anything,
+                    independent of medium, or across media,
+                    and human engagement as an explicit goal.
+            </p>
+
+            <p>
+            Experience design is the design of anything,
+                    independent of medium, or across media,
+                    and human engagement as an explicit goal.
+            </p>
+
+            <button class="order_button">
+                Заказать
+            </button>
 
          </div>
+        
 
     </section>
 
