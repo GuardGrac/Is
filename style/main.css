@@ -1,12 +1,11 @@
 body, html {
-	background-color: #ffd0d0;
+	background-color: transparent;
 	height: 100%;
-	overflow: overlay;
 	background-image: url(/images/back.png);
 	background-size: cover;
 	background-attachment: scroll;
 	margin: 0px;
-	overflow-x: hidden;
+	padding: 0px;
 	font-family: 'Nunito', sans-serif;
 }
 
@@ -73,6 +72,11 @@ body, html {
 	font-family: 'Nunito', sans-serif;
 }
 
+.links:hover, .logo_text:hover{
+	color: #000000;
+	text-decoration: none;
+}
+
 .header{
 	display: flex;
 	align-items: start;
@@ -102,7 +106,7 @@ body, html {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	background-color: white;
+	background-color: transparent;
 }
 
 .text_about{

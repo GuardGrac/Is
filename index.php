@@ -84,12 +84,11 @@
 
                     <p>
 
-                    <big><big>10000+</big></big> <br>
+                    <big><big><big>10000+</big></big></big> <br>
                         
                         <small>
                             Experience design is the design of anything,
-                            independent of medium, or across media,
-                            and human engagement as an explicit goal.
+                            independent of medium.
                         </small>
                     </p>
                     
@@ -103,12 +102,11 @@
 
                     <p>
 
-                    <big><big>10000+</big></big> <br>
+                    <big><big><big>10000+</big></big></big> <br>
                         
                         <small>
                             Experience design is the design of anything,
-                            independent of medium, or across media,
-                            and human engagement as an explicit goal.
+                            independent of medium.
                         </small>
                     </p>
                     
@@ -126,8 +124,7 @@
                         
                         <small>
                             Experience design is the design of anything,
-                            independent of medium, or across media,
-                            and human engagement as an explicit goal.
+                            independent of medium.
                         </small>
                     </p>
                     
