@@ -18,7 +18,7 @@
 <nav class="navi">
 
     <div>
-        <a href="" class="logo_text" link="#000000" vlink="000000">
+        <a href="auth.php" class="logo_text" link="#000000" vlink="000000">
             Juisables
         </a>
     </div>
