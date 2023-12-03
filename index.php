@@ -18,18 +18,18 @@
 <nav class="navi">
 
     <div>
-        <a href="auth.php" class="logo_text" link="#000000" vlink="000000">
+        <a href="index.php" class="logo_text" link="#000000" vlink="000000">
             Juisables
         </a>
     </div>
 
     <div>
-        <a href="" class="links" link="#000000" vlink="000000">
-            Условия Доставки
+        <a href="catalog.php" class="links" link="#000000" vlink="000000">
+            Каталог
         </a>
     </div>
 
-  <div>
+    <div>
         <a href="" class="links" link="#000000" vlink="000000">
             Контакты
         </a>
@@ -161,6 +161,56 @@
 
     </section>
 
+    <footer>
 
+    </footer>
+
+        <div id="menu" class="">
+
+            <nav class="main-nav">
+
+                <ul>
+
+                    <li>
+                        <a href="index.php" class="logo_text links_burger" link="#000000" vlink="000000">
+                            Juisables
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="catalog.php" class="links links_burger" link="#000000" vlink="000000">
+                            Каталог
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="" class="links links_burger" link="#000000" vlink="000000">
+                            Контакты
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="auth.php" class="links links_burger" link="#000000" vlink="000000">
+                            Регистрация
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="auth.php" class="links links_burger" link="#000000" vlink="000000">
+                            Вход
+                        </a>
+                    </li>
+                   
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+
+
+
+    <script src="js/burger.js"></script>
 </body>
 </html>
