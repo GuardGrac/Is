@@ -1,5 +1,5 @@
 body, html {
-	background-color: transparent;
+	background-color: #ececec;
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
@@ -234,4 +234,72 @@ body, html {
 .nav__toggle-menu.active span:after {
 	top: 0;
 	transform: rotate3d(0, 0, 1, 45deg);
+}
+
+.cart_block{
+	padding-top: 200px;
+}
+
+.cart{
+	width: 350px;
+	height: 350px;
+	margin: 20px;
+	float: left;
+	background-color: #ffffff;
+	text-align: center;
+	padding: 20px;
+}
+
+.cart .goods-image{
+	width: 100px;
+	height: 310px;
+}
+
+.cart .name{
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Nunito', sans-serif;
+}
+
+.cart .description{
+	font-size: 13px;
+	font-weight: normal;
+	font-family: 'Nunito', sans-serif;
+}
+
+.cart .cost{
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Nunito', sans-serif;
+}
+
+.cart .add-to-cart{
+    color:rgb(255, 255, 255);
+    font-weight: 400;
+    border: 0;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    transition: 0.2s;
+    background-color: #ff3e39;
+}
+
+
+.add-to-cart:hover{
+    color: #000000;
+    background-color: #fafafa;
+}
+
+.goods-out{
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+}
+
+.goods-out::after{
+content: "";
+display: block;
+clear: both;
 }
