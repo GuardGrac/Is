@@ -1,5 +1,5 @@
 body, html {
-	background-color: #ececec;
+	background-color: #ffffff;
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
@@ -241,9 +241,9 @@ body, html {
 }
 
 .cart{
-	width: 350px;
-	height: 350px;
-	margin: 20px;
+	width: 360px;
+	height: 450px;
+	margin: 30px;
 	float: left;
 	background-color: #ffffff;
 	text-align: center;
@@ -251,8 +251,8 @@ body, html {
 }
 
 .cart .goods-image{
-	width: 100px;
-	height: 310px;
+	width: 80px;
+	height: 260px;
 }
 
 .cart .name{

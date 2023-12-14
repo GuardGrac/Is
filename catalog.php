@@ -54,23 +54,10 @@
 
     </nav>
 
-    <!-- <section class="cart_block">
-
-        <div class="cart">
-
-            <img class="goods-image" src="images/RedB.png" alt="">
-            <p class="name">Гранатовый сок</p>
-            <p class="description">Прекрасный гранатовый сок, приготовленный из самых свежих и спелых ягод граната</p>
-            <div class="cost">150</div>
-            <button class="add-to-cart">Купить</button>
-
-        </div>
-
-    </section> -->
-
     <header></header>
 
     <main>
+        <div class="mini-cart"></div>
         <div class="goods-out"></div>
     </main>
 
