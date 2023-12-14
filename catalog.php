@@ -54,7 +54,7 @@
 
     </nav>
 
-    <section class="cart_block">
+    <!-- <section class="cart_block">
 
         <div class="cart">
 
@@ -66,7 +66,7 @@
 
         </div>
 
-    </section>
+    </section> -->
 
     <header></header>
 
@@ -119,8 +119,8 @@
 
         </div>
 
-    <script src="libs/jquery/jquery-3.3.1.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/burger.js"></script>
+    <script src="/libs/jquery/jquery-3.3.1.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/burger.js"></script>
 </body>
 </html>
