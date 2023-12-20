@@ -56,9 +56,20 @@
 
     <header></header>
 
-    <main>
-        <div class="mini-cart"></div>
-        <div class="goods-out"></div>
+    <main class="main-section">
+
+        <h1 class="catalogue-heading">
+            Каталог
+        </h1>
+
+            <div class="flex_box">
+
+                <div class="goods-out"></div>
+
+                <div class="mini-cart"></div>
+
+            </div>
+        
     </main>
 
     <footer></footer>

@@ -161,6 +161,14 @@
 
     </section>
 
+    <section class="about-us">
+
+        <div class="block-about">
+            
+        </div>
+
+    </section>
+
     <footer>
 
     </footer>

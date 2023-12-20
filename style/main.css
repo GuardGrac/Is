@@ -460,7 +460,7 @@ display: block;
 	transform: rotate3d(0, 0, 1, 45deg);
 }
   
-  .order_button{
+.order_button{
     color:rgb(255, 255, 255);
     font-weight: 400;
     border: 0;
@@ -473,9 +473,22 @@ display: block;
     font-size: 40px;
     transition: 0.2s;
     background-color: #ff3e39;
-  }
+}
 
-  .order_button:hover{
-    color: #000000;
-    background-color: #fafafa;
-  }
+.order_button:hover{
+	color: #000000;
+	background-color: #fafafa;
+}
+
+.about-us{
+	display: flex;
+	justify-content: space-evenly;	
+}
+
+.block-about{
+	display: block;
+	width: 450px;
+	height: 350px;
+	border-radius: 20px;
+	border: 1px solid black;
+}
