@@ -64,60 +64,31 @@ let catalog = {
     },
 }
 
-var cart = {};//корзина
-
-function goodsOut(data){
-    //вывод на страницу
-    var out='';
-    for(var key in data) {
-        out +='<div class="cart">';
-        out +=`<img class="goods-image" src="/images/${data[key].goods_image}" alt="">`;
-        out +=`<p class="name">${data[key].name}</p>`;
-        out +=`<p class="description">${data[key].description}</p>`;
-        out +=`<div class="cost">${data[key].cost}</div>`;
-        out +=`<button class="add-to-cart" data-id="${key}">Купить</button>`;
-        out +='</div>';  
-    }
-    $('.goods-out').html(out)
-    $('.add-to-cart').on('click', addToCart);
-}
-
-function addToCart(){
-    var id = $(this).attr('data-id');
-        if(cart[id]==undefined) {
-            cart[id] = 1; //если в корзине нет товара - делает равным 1
-        }
-
-        else{
-            cart[id]++; //если такой товар есть - увеличивает на единицу
-        }
-        
-      showMiniCart();
-      saveCart();
-
-}
-
-function saveCart(){
-    //сохраняю корзину в localStorage
-    localStorage.setItem('cart', JSON.stringify(cart)); //корзину в строку
-}
-
-function showMiniCart(){
-    var out="";
-    for(var key in cart){
-        out+= key +' --- '+cart[key]+'<br>';
-    }
-    $('.mini-cart').html(out);
-}
-
+var cart = {};
 function loadCart(){
     //проверяю есть ли в localStorage запись cart
     if (localStorage.getItem('cart')){
         //если есть - расшифровываю и записываю в переменную
         cart = JSON.parse(localStorage.getItem('cart'));
-        showMiniCart();
+        showCart();
+    }
+    
+    else{
+        $('.main-cart').html('Корзина пуста!');
     }
 }
 
+function showCart(){
+    console.log("хуй");
+    // $.getJSON(catalog, function (data){
+    //   var catalog = data;
+      var out = '';
+      for(var id in cart){
+        out += `<img src="images\\${catalog[id].goods_image}">`;
+        out += `${catalog[id].name}`;
+      } 
+      $('.main-cart').html(out);
+    // });
+}
+
 loadCart();
-goodsOut(catalog);
