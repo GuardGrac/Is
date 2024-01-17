@@ -79,7 +79,7 @@ function loadCart(){
 
 function showCart(){
     // $.getJSON(catalog, function (data){
-    //   var catalog = data;
+    // var catalog = data;
     //вывод корзины
     if(!isEmpty(cart)){
         $('.main-cart').html('Корзина пуста!');
@@ -87,10 +87,10 @@ function showCart(){
     else{
       var out = '';
       for(var id in cart){
+        out += `<img class="cart-img" src="images\\${catalog[id].goods_image}">`;
+        out += `<p class="name">${catalog[id].name}</p> `;
+        out += ` ${cart[id]} `;
         out += `<button data-id="${id}" class="del-goods">X</button>`;
-        out += `<img src="images\\${catalog[id].goods_image}">`;
-        out += `${catalog[id].name}`;
-        out += `${cart[id]}`;
         out += `<br>`;
       } 
       $('.main-cart').html(out);

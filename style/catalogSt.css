@@ -323,3 +323,21 @@ clear: both;
 	padding-top: 100px;
 	font-family: 'Nunito', sans-serif;
 }
+
+.main-cart{
+}
+
+.cart-heading{
+	font-size: 36px;
+	font-style: inherit;
+	font-weight: 500;
+	padding-top: 100px;
+	text-align: center;
+	padding-top: 100px;
+	font-family: 'Nunito', sans-serif;
+}
+
+.cart-img{
+	width: 80px;
+    height: 260px;
+}

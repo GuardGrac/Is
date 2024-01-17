@@ -107,6 +107,9 @@ function showMiniCart(){
     for(var key in cart){
         out+= key +' --- '+cart[key]+'<br>';
     }
+    out += '<div>';
+    out += '<a href="cart.html" class="links" link="#000000" vlink="000000">В корзину</a>';
+    out += '</div>';
     $('.mini-cart').html(out);
 }
 
