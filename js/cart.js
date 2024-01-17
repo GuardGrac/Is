@@ -70,25 +70,53 @@ function loadCart(){
     if (localStorage.getItem('cart')){
         //если есть - расшифровываю и записываю в переменную
         cart = JSON.parse(localStorage.getItem('cart'));
-        showCart();
+            showCart();
     }
-    
     else{
         $('.main-cart').html('Корзина пуста!');
     }
 }
 
 function showCart(){
-    console.log("хуй");
     // $.getJSON(catalog, function (data){
     //   var catalog = data;
+    //вывод корзины
+    if(!isEmpty(cart)){
+        $('.main-cart').html('Корзина пуста!');
+    }
+    else{
       var out = '';
       for(var id in cart){
+        out += `<button data-id="${id}" class="del-goods">X</button>`;
         out += `<img src="images\\${catalog[id].goods_image}">`;
         out += `${catalog[id].name}`;
+        out += `${cart[id]}`;
+        out += `<br>`;
       } 
       $('.main-cart').html(out);
+      $('.del-goods').on('click', delGoods);
+    }
     // });
+}
+
+function delGoods(){
+    //удаляем товар из корзины
+    var id = $(this).attr('data-id');
+    delete cart[id];
+    saveCart();
+    showCart();
+}
+
+function saveCart(){
+    //сохраняем корзину в localStorage
+    localStorage.setItem('cart', JSON.stringify(cart)); //корзину в строку
+}
+
+function isEmpty(object) {
+    //проверка корзины на пустоту
+    for (var key in object)
+    if (object.hasOwnProperty(key))  return true;
+    return false;
 }
 
 loadCart();
