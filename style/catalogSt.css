@@ -242,7 +242,7 @@ body, html {
 
 .cart{
 	width: 360px;
-	height: 450px;
+	height: 480px;
 	margin: 10px;
 	float: left;
 	background-color: #ffffff;
@@ -252,24 +252,25 @@ body, html {
 
 .cart .goods-image{
 	width: 80px;
-	height: 260px;
+	height: 240px;
 }
 
 .cart .name{
-	font-size: 16px;
+	font-size: 25px;
 	font-weight: bold;
 	text-transform: uppercase;
 	font-family: 'Nunito', sans-serif;
 }
 
 .cart .description{
-	font-size: 13px;
+	font-size: 16px;
 	font-weight: normal;
+	margin: 0px;
 	font-family: 'Nunito', sans-serif;
 }
 
 .cart .cost{
-	font-size: 15px;
+	font-size: 25px;
 	font-weight: bold;
 	font-family: 'Nunito', sans-serif;
 }
@@ -287,14 +288,12 @@ body, html {
     background-color: #ff3e39;
 }
 
-
 .add-to-cart:hover{
     color: #000000;
     background-color: #fafafa;
 }
 
 .goods-out{
-border-bottom: 1px solid black;
 width: 1280px;
 }
 
@@ -306,9 +305,21 @@ clear: both;
 
 .mini-cart{
 	display: block;
-	width: 400px;
+	width: 200px;
 	justify-content: right;
 }
+
+.mini-goods{
+	font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+.goods-image-mini{
+	width: 30px;
+	height: 80px;
+}
+
+
 
 .flex_box{
 	display: flex;
@@ -325,6 +336,8 @@ clear: both;
 }
 
 .main-cart{
+	display: block;
+	align-items: center;
 }
 
 .cart-heading{
@@ -338,6 +351,43 @@ clear: both;
 }
 
 .cart-img{
-	width: 80px;
-    height: 260px;
+	width: 50px;
+    height: 130px;
+}
+
+.product-in-cart{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ font-family: 'Nunito', sans-serif;
+ font-size: 20px;
+ font-weight: 400;
+ justify-content: space-evenly;
+ padding: 10px;
+ border: 1px solid black;
+}
+
+.del-goods{
+	font-weight: 400;
+    border: 0;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    transition: 0.2s;
+    background-color: #ff3e39;
+}
+
+.del-goods:hover{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.description-in-cart{
+	font-size: 16px;
+	width: 200px;
+	font-weight: 400;
+	font-weight: normal;
+	font-family: 'Nunito', sans-serif;
 }

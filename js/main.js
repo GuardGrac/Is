@@ -105,7 +105,10 @@ function saveCart(){
 function showMiniCart(){
     var out="";
     for(var key in cart){
+        out +='<div class="mini-goods">';
+        out +=`<img class="goods-image-mini" src="/images/${catalog[key].goods_image}" alt="">`;
         out+= key +' --- '+cart[key]+'<br>';
+        out +='</div>';
     }
     out += '<div>';
     out += '<a href="cart.html" class="links" link="#000000" vlink="000000">В корзину</a>';

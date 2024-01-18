@@ -87,11 +87,14 @@ function showCart(){
     else{
       var out = '';
       for(var id in cart){
+        out += `<div class="product-in-cart">`;
         out += `<img class="cart-img" src="images\\${catalog[id].goods_image}">`;
-        out += `<p class="name">${catalog[id].name}</p> `;
-        out += ` ${cart[id]} `;
-        out += `<button data-id="${id}" class="del-goods">X</button>`;
+        out += `<p class="name">${catalog[id].name}</p>`;
+        out += `<p class="description-in-cart">${catalog[id].description}</p>`
+        out += `${cart[id]}`;
+        out += `<button data-id="${id}" class="del-goods">Удалить</button>`;
         out += `<br>`;
+        out += `</div>`;
       } 
       $('.main-cart').html(out);
       $('.del-goods').on('click', delGoods);

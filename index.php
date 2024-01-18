@@ -429,7 +429,38 @@
 
     </section>
 
-    <footer>
+    <footer class="foot">
+
+    <img class="footer-image" src="/images/back-footer.png" alt="">
+
+            <div class="bl1_foot">
+
+                <img src="images/капучино_белое.png" class="capuchino_foot" style="height: 120px; width: 150px;">
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <div class="icons">
+
+                    <a href="https://www.youtube.com/channel/UCAuluR3NXFFO8HVd1BsvpeA">
+                        <img src="images/youtube.png" class="icons_size1">
+                    </a>
+
+                    <a href="https://www.instagram.com/">
+                        <img src="images/insta.png" class="icons_size">
+                    </a>
+                    
+                    <a href="https://ru-ru.facebook.com/">
+                        <img src="images/facebook.png" class="icons_size">
+                    </a>
+            
+
+                </div>
+
+            </div>
 
     </footer>
 
