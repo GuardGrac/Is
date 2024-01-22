@@ -87,15 +87,26 @@
                 <blockquote class="text">
 
                     <p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    
 
-                    <big><big><big>10000+</big></big></big> <br>
+                    <b>
+                        <big><big><big>10000+</big></big></big> <br>
+                    </b>
+                    
                         
-                        <small>
+                        <b>
+                            <big>
 
-                            Experience design is the design of anything,
-                            independent of medium.
+                            Человек пользуются нашими услугами
 
-                        </small>
+                            </big>  
+                        </b>
+                        
+
                     </p>
                     
                 </blockquote>
@@ -107,15 +118,18 @@
                 <blockquote class="text2">
 
                     <p>
+                        <br>
 
-                    <big><big><big>10000+</big></big></big> <br>
-                        
-                        <small>
+                        <big><big><big><big><big>5</big></big></big></big></big> <br>
+                            
+                        <b>
+                            <big>
+                            
+                                Лет на рынке
 
-                            Experience design is the design of anything,
-                            independent of medium.
+                            </big>
+                        </b>
 
-                        </small>
                     </p>
                     
                 </blockquote>
@@ -127,15 +141,20 @@
                 <blockquote class="text3">
 
                     <p>
+                    <br>
+                    <br>
 
-                    <big><big>10000+</big></big> <br>
+                        <b>
+
+                            <big><big><big><big>95%</big></big></big></big> <br>
+                            
+                        </b>
+                            
                         
-                        <small>
 
-                            Experience design is the design of anything,
-                            independent of medium.
+                        Клиентов Juisables оценивают качество продукции как выдающееся
 
-                        </small>
+                        
                     </p>
                     
                  </blockquote>
@@ -148,29 +167,47 @@
 
             <H1> 
 
-                 Наша работа
+                <b>
+                    <big>
+                        <big>
+                            <big>
+                                Наша работа
+                            </big>
+                        </big>
+                    </big>
+                </b>
 
             </H1>
 
             <p>
 
-            Experience design is the design of anything,
-                    independent of medium, or across media,
-                    and human engagement as an explicit goal.
+            Juisables - ваш идеальный выбор в мире соков.
+            Более 90% высококачественных напитков, лидер по удовлетворенности клиентов (94%).
 
             </p>
 
             <p>
 
-            Experience design is the design of anything,
-                    independent of medium, or across media,
-                    and human engagement as an explicit goal.
+            Наша статистика: рост продаж, прозрачность информации и регулярные обновления ассортимента.
+            Присоединяйтесь к нашей дружной семье довольных клиентов!
 
             </p>
 
-            <button class="order_button">
+            <button class="coop-button">
 
-                Заказать
+                Начать сотрудничество
+
+                <svg class="arrow2" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="96px" height="96px"
+                    viewBox="0 0 96 96" enable-background="new 0 0 96 96" xml:space="preserve">
+                    <switch>
+                        <g i:extraneous="self">
+                            <path d="M44,12v62.344L22.828,53.172c-1.562-1.562-4.094-1.562-5.656,0c-1.562,1.562-1.562,4.095,0,5.657l28,28
+                                c1.562,1.562,4.095,1.562,5.656,0l28-28C79.609,58.048,80,57.024,80,56c0-1.023-0.391-2.047-1.172-2.828
+                                c-1.562-1.562-4.095-1.562-5.656,0L52,74.344V12c0-2.208-1.791-4-4-4S44,9.791,44,12z"/>
+                        </g>
+                    </switch>
+                </svg>
 
             </button>
 
@@ -429,13 +466,119 @@
 
     </section>
 
+    <section class="ord-and-buy">
+
+        <div class="order-line">
+
+            <div class="order-block">
+
+                <div class="ord-btns">
+                    
+                    <img src="/icons/delivery.png" alt="" class="del-icon">
+
+                    <p class="ord-btns-txt">
+                        Почта России
+                    </p>
+
+                </div>
+
+                <div class="ord-btns">
+
+                    <img src="/icons/shop.png" alt="" class="shop-icon">
+
+                    <p class="ord-btns-txt">
+                        Самовывоз
+                    </p>
+
+                </div>
+
+                <div class="ord-btns">
+
+                    <img src="/icons/mail.png" alt="" class="mail-icon">
+
+                    <p class="ord-btns-txt">
+                        Новая почта
+                    </p>
+
+                </div>
+
+            </div>  
+
+            <div class="text-block">
+
+                    <p class="ord-text">
+                        ---  Доставка
+                    </p>
+
+                    <img src="/images/pomegranate.png" alt="картинка не найдена" class="decoration">
+
+            </div>  
+
+        </div>
+
+        <div class="buy-line">
+            
+
+            <div class="text-block2">
+
+                <img src="/images/leaves.png" alt="картинка не найдена" class="decoration2">
+
+                <p class="ord-text">
+                        Оплата   --- 
+                </p>
+
+            </div>  
+
+            <div class="buy-block">
+
+                 <div class="buy-btns">
+                    
+                    <img src="/icons/approved.png" alt="" class="appr-icon">
+
+                    <p class="buy-btns-txt">
+                        Безналично
+                    </p>
+
+                </div>
+
+                <div class="buy-btns">
+
+                    <img src="/icons/refund.png" alt="" class="ref-icon">
+
+                    <p class="buy-btns-txt">
+                        Возвраты
+                    </p>
+
+                </div>
+
+                <div class="buy-btns">
+
+                    <img src="/icons/money.png" alt="" class="money-icon">
+
+                    <p class="buy-btns-txt">
+                        Наличными
+                    </p>
+
+                </div>
+
+            </div>  
+
+        </div>
+
+        
+
+
+    </section>
+
     <footer class="foot">
 
     <img class="footer-image" src="/images/back-footer.png" alt="">
 
             <div class="bl1_foot">
 
-                <img src="images/капучино_белое.png" class="capuchino_foot" style="height: 120px; width: 150px;">
+                <p class="logo">
+                    Juisables
+                </p>
 
                 <p>
                     Lorem ipsum dolor sit amet, consectetur <br>
@@ -446,19 +589,51 @@
                 <div class="icons">
 
                     <a href="https://www.youtube.com/channel/UCAuluR3NXFFO8HVd1BsvpeA">
-                        <img src="images/youtube.png" class="icons_size1">
+                        <img src="icons/youtube.png" class="icons_size1">
                     </a>
 
                     <a href="https://www.instagram.com/">
-                        <img src="images/insta.png" class="icons_size">
+                        <img src="icons/insta.png" class="icons_size">
                     </a>
                     
                     <a href="https://ru-ru.facebook.com/">
-                        <img src="images/facebook.png" class="icons_size">
+                        <img src="icons/facebook.png" class="icons_size">
                     </a>
             
 
                 </div>
+
+            </div>
+
+            <div class="bl2_foot">
+
+                <p class="title_footer2">
+                    Полезные ссылки
+                </p>
+
+                <p class="links_footer">
+                    Политика конфиденциальности <br>
+                    Возвраты<br>
+                    Условия и положения<br>
+                    Последние новости<br>
+                    Блог<br>     
+                </p>
+
+            </div>
+
+            <div class="bl3_foot">
+
+                <p class="title_footer2">
+                    Помощь
+                </p>
+
+                <p class="links_footer">
+                    Аккаунт<br>
+                    Восстановление пароля<br>
+                    Связаться с нами<br>
+                    Как готовить кофе?<br>
+                    Доставка и оплата<br>     
+                </p>
 
             </div>
 
