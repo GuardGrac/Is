@@ -570,6 +570,10 @@
 
     </section>
 
+    <section class="contacts">
+        
+    </section>
+
     <footer class="foot">
 
     <img class="footer-image" src="/images/back-footer.png" alt="">
@@ -681,9 +685,6 @@
             </nav>
 
         </div>
-
-
-
 
     <script src="js/burger.js"></script>
 </body>

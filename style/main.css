@@ -149,11 +149,12 @@ body{
 }
 
 .arrow2{
-	width: 70px;
-	height: 70px;
-	rotate: 180deg;
+	width: 60px;
+	height: 60px;
+	rotate: 270deg;
 	transition: 0.1s;
 	color:black;
+	margin-bottom: 4px;
 }
 
 .flex_box{
