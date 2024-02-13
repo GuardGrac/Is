@@ -755,6 +755,52 @@ svg path {
 	user-select: none;
 }
 
+.contacts{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contacts_box{
+	display: flex;
+	font-family: 'Nunito', sans-serif;
+    font-size: 56px;
+	width: 100vw;
+	height: 100vh;
+	font-weight: bold;
+	text-transform: uppercase;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.bg-img{
+	height: 0;
+	width: 0;
+}
+.bg-img2{
+	position: relative;
+	z-index: 2;
+	background-color: rgba(149, 149, 149, 1);
+	bottom: 660px;
+	left: 500px;
+	height: 613px;
+	width: 820px;
+}
+
+.bg-img::before{
+	content: "";
+	z-index: -1;
+	display: block;
+	position: relative;
+	background-color: rgba(255, 0, 55, 0.3);
+	top: 250px;
+	right: 565px;
+	width: 200px;
+	height: 613px;
+}
+
 .foot{
 	display: flex;
 	padding-top: 200px;

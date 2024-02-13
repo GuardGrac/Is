@@ -571,7 +571,19 @@
     </section>
 
     <section class="contacts">
-        
+        <div class="contacts_box">
+            <div class="bg-img">
+            </div>
+            <div class="contacts_box">
+                <p>Контакты</p>
+                <img class="bg-orange" src="/images/orange-back.png" alt="">
+            </div>
+        </div>
+            <div class="bg-img2">
+                <div>
+                    <p>CFCB</p>
+                </div>
+            </div>
     </section>
 
     <footer class="foot">
